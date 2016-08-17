@@ -17,8 +17,8 @@ var GPIO = require('onoff').Gpio,
 
 var v1 = new blynk.VirtualPin(1);
 var v2 = new blynk.VirtualPin(2);
-var v3 = new blynk.VirtualPin(3);
-var v4 = new blynk.VirtualPin(4);
+//var v3 = new blynk.VirtualPin(3);
+//var v4 = new blynk.VirtualPin(4);
 
 port_switch_a.watch(function(err, state) {
   // check the state of the button
